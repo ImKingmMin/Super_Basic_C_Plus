@@ -1,2 +1,2 @@
-# Basic-c-studying
-Study before starting new semester
+# Super basic c++
+Studying before starting a new semester
