@@ -1,0 +1,7 @@
+조건부 컴파일(conditional compile)&전처리기(preprocessor)
+
+#ifndef -> if not defined
+#define - > I define               // 처리되어있지않다면 define대로 처리해라
+#endif -> end
+
+#ifdef -> 바로 뒤에 나오는 식별자가 #define으로 정의되있으면  처리하고 아니면 건너뛴다.
