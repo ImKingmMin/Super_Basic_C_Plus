@@ -36,7 +36,8 @@ void increase(Circle c) {
 
 int main() {
 	Circle waffle(30);
-	increase(waffle);        // 매개변수 객체의 생성자는 호출되지않음 !! But 소멸자는 호출됨 ! 
+	increase(waffle);        // 매개변수 객체의 생성자는 호출되지않음 !! But 복사 생성자와 소멸자는 호출됨 ! 
 	                        // + call by value이기 때문에 main stack의 waffle의 값은 바뀌지않음.
+							//만약 main에서의 값을 31로 바꾸고싶으면 call by reference 이용하면된다 ! 
 	cout << waffle.getRadius() << endl;
 }

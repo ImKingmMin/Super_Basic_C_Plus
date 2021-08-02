@@ -45,7 +45,7 @@ void increase(Circle &c) {
 int main() {
 	Circle waffle(30);
 	increase(waffle);        // 참조호출은 생성자, 소멸자 모두 호출 x  **이름만 생성된다 생각**
-							 //만약 main에서의 값을 31로 바꾸고싶으면 call by reference 이용하면된다 ! 
+							
 	cout << waffle.getRadius() << endl;
 }
 
